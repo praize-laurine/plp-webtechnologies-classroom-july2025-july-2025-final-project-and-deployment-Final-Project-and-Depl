@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raha Café - Premium Coffee Experience</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <i class="fas fa-coffee"></i>
+                        <span>Raha Café</span>
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h1 class="hero-title fade-in-up">Welcome to Raha Café</h1>
+                    <p class="hero-subtitle fade-in-up delay-1">Experience the perfect blend of premium coffee and cozy atmosphere</p>
+                    <div class="hero-buttons fade-in-up delay-2">
+                        <a href="menu.html" class="btn btn-primary">Order Now</a>
+                        <a href="about.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-subtitle">Discover what makes our coffee special</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Sourced from the finest coffee farms around the world, ensuring exceptional taste in every cup.</p>
+                </div>
+                
+                <div class="feature-card fade-in-card delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Organic & Fresh</h3>
+                    <p>All our coffee beans are organic, freshly roasted daily to maintain peak flavor and quality.</p>
+                </div>
+                
+                <div class="feature-card fade-in-card delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Crafted with Love</h3>
+                    <p>Each cup is carefully crafted by our expert baristas who are passionate about coffee.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Menu Section -->
+    <section class="popular-menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Menu</h2>
+                <p class="section-subtitle">Try our customers' favorite beverages</p>
+            </div>
+            
+            <div class="menu-preview">
+                <div class="menu-item fade-in-card">
+                    <div class="menu-image">
+                        <img src="/images/espresso.webp" alt="Espresso">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Classic Espresso</h3>
+                        <p>Rich and bold single shot espresso</p>
+                        <span class="price">Ksh.450</span>
+                    </div>
+                </div>
+                
+                <div class="menu-item fade-in-card delay-1">
+                    <div class="menu-image">
+                        <img src="/images/capucinno.webp" alt="Cappuccino">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Cappuccino</h3>
+                        <p>Creamy espresso with steamed milk foam</p>
+                        <span class="price">Ksh.540</span>
+                    </div>
+                </div>
+                
+                <div class="menu-item fade-in-card delay-2">
+                    <div class="menu-image">
+                        <img src="https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Latte">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Caramel Latte</h3>
+                        <p>Smooth latte with caramel syrup</p>
+                        <span class="price">Ksh.490</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-coffee"></i>
+                        <span>Raha Café</span>
+                    </div>
+                    <p>Crafting exceptional coffee experiences since 2020. Visit us for the perfect cup of coffee.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Ridgeways Grounds, Kiambu Road</p>
+                        <p><i class="fas fa-phone"></i> +254 7 12 345 678</p>
+                        <p><i class="fas fa-envelope"></i> hello@rahacafe.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <div class="hours">
+                        <p>Monday - Friday: 6:00 AM - 8:00 PM</p>
+                        <p>Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Raha Café. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
