@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Raha Café</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <i class="fas fa-coffee"></i>
+                        <span>Raha Café</span>
+                    </a>
+                </div>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in-up">Our Menu</h1>
+            <p class="page-subtitle fade-in-up delay-1">Discover our carefully crafted coffee selections</p>
+        </div>
+    </section>
+
+    <!-- Menu Filter -->
+    <section class="menu-filter">
+        <div class="container">
+            <div class="filter-buttons fade-in-up">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="coffee">Coffee</button>
+                <button class="filter-btn" data-filter="espresso">Espresso</button>
+                <button class="filter-btn" data-filter="cold">Cold Drinks</button>
+                <button class="filter-btn" data-filter="pastry">Pastries</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-grid" id="menuGrid">
+                <!-- Coffee Items -->
+                <div class="menu-card fade-in-card" data-category="coffee">
+                    <div class="menu-card-image">
+                        <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Americano">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Classic Americano</h3>
+                        <p>Rich espresso diluted with hot water for a smooth, bold flavor</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.549</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="coffee">
+                    <div class="menu-card-image">
+                        <img src="https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cappuccino">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Cappuccino</h3>
+                        <p>Perfect balance of espresso, steamed milk, and velvety foam</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ks.550</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="coffee">
+                    <div class="menu-card-image">
+                        <img src="https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Caramel Latte">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Caramel Latte</h3>
+                        <p>Smooth espresso with steamed milk and sweet caramel syrup</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.500</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Espresso Items -->
+                <div class="menu-card fade-in-card" data-category="espresso">
+                    <div class="menu-card-image">
+                        <img src="/images/Espresso-Single.jpg" alt="Single Espresso">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Single Espresso</h3>
+                        <p>Bold, concentrated coffee shot with rich crema</p>
+                        <div class="menu-card-footer">
+                            <span class="price">$Ksh. 300</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="espresso">
+                    <div class="menu-card-image">
+                        <img src="/images/dbl-espresso.avif" alt="Double Espresso">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Double Espresso</h3>
+                        <p>Two shots of our premium espresso for the true coffee lover</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.590</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="espresso">
+                    <div class="menu-card-image">
+                        <img src="/images/macchiatooo.webp" alt="Macchiato">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Espresso Macchiato</h3>
+                        <p>Espresso shot "marked" with a dollop of steamed milk foam</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.650</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cold Drinks -->
+                <div class="menu-card fade-in-card" data-category="cold">
+                    <div class="menu-card-image">
+                        <img src="/images/Iced-Coffee-6.jpg" alt="Iced Coffee">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Iced Coffee</h3>
+                        <p>Cold-brewed coffee served over ice with your choice of milk</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.750</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="cold">
+                    <div class="menu-card-image">
+                        <img src="/images/vanilla frappe.avif" alt="Frappuccino">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Vanilla Frappé</h3>
+                        <p>Blended ice coffee drink with vanilla syrup and whipped cream</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.560</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="cold">
+                    <div class="menu-card-image">
+                        <img src="/images/coldbrew.avif" alt="Cold Brew">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Cold Brew</h3>
+                        <p>Smooth, concentrated coffee steeped in cold water for 12 hours</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.400</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pastries -->
+                <div class="menu-card fade-in-card" data-category="pastry">
+                    <div class="menu-card-image">
+                        <img src="/images/croissant.avif" alt="Croissant">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Butter Croissant</h3>
+                        <p>Flaky, buttery French pastry baked fresh daily</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.150</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="pastry">
+                    <div class="menu-card-image">
+                        <img src="/images/muffins.avif" alt="Blueberry Muffin">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Blueberry Muffin</h3>
+                        <p>Moist, fluffy muffin loaded with fresh blueberries</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.60</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card fade-in-card" data-category="pastry">
+                    <div class="menu-card-image">
+                        <img src="/images/choco-cake.avif" alt="Chocolate Cake">
+                        <div class="menu-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Chocolate Cake</h3>
+                        <p>Rich, decadent chocolate cake with smooth chocolate frosting</p>
+                        <div class="menu-card-footer">
+                            <span class="price">Ksh.200</span>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-coffee"></i>
+                        <span>Raha Café</span>
+                    </div>
+                    <p>Crafting exceptional coffee experiences since 2020. Visit us for the perfect cup of coffee.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Ridgeways Grounds, Kiambu Road</p>
+                        <p><i class="fas fa-phone"></i> +254 7 12 345 678</p>
+                        <p><i class="fas fa-envelope"></i> hello@rahacafe.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <div class="hours">
+                        <p>Monday - Friday: 6:00 AM - 8:00 PM</p>
+                        <p>Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Raha Café. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/menu.js"></script>
+</body>
+</html>
