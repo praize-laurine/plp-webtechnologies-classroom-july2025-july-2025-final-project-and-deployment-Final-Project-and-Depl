@@ -1,6 +1,6 @@
-# Brew Café 
+# Raha Café 
 
-A modern and responsive coffee shop website designed to showcase the brand identity of Brew Café.
+A modern and responsive coffee shop website designed to showcase the brand identity of Raha Café.
 The website provides visitors with a welcoming landing page, clear navigation, and call-to-action buttons, giving users a real café experience online.
 
 ---

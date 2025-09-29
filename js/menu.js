@@ -1,5 +1,5 @@
 /**
- * Menu Page JavaScript - Brew Café Coffee Shop
+ * Menu Page JavaScript - Raha Café Coffee Shop
  * Handles menu filtering, interactions, and dynamic content loading
  */
 
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
      */
     function getCartFromStorage() {
         try {
-            const cartData = localStorage.getItem('brewAndBeanCart');
+            const cartData = localStorage.getItem('RahaAndBeanCart');
             return cartData ? JSON.parse(cartData) : [];
         } catch (error) {
             console.error('Error reading cart from storage:', error);
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
      */
     function saveCartToStorage(cart) {
         try {
-            localStorage.setItem('brewAndBeanCart', JSON.stringify(cart));
+            localStorage.setItem('RahaAndBeanCart', JSON.stringify(cart));
         } catch (error) {
             console.error('Error saving cart to storage:', error);
         }
