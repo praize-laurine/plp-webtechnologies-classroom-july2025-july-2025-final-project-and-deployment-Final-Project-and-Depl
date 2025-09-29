@@ -19,7 +19,11 @@ The purpose of this project is to:
 
 ## Project Structure
 
-├── templates       # Html templates structure  
+├── index.html
+├── about.html 
+├── menu.html 
+├── gallery.html 
+├── contact.html 
 ├── js              # JavaScript interactivity  
 ├── style.css        # Website styling and layout  
 ├── images/          # Images, icons, and media files  
