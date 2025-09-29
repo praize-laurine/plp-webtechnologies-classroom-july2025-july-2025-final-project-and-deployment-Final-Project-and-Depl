@@ -1,5 +1,5 @@
 /**
- * Index JavaScript File for Raha Café Coffee Shop Website
+ * Index JavaScript File for Brew Café Coffee Shop Website
  * Handles navigation, animations, and common functionality across all pages
  */
 
@@ -326,9 +326,9 @@ document.addEventListener('DOMContentLoaded', function() {
             initPerformanceMonitoring();
             initScrollToTop();
             
-            console.log('Raha Café: All scripts initialized successfully');
+            console.log('Brew Café: All scripts initialized successfully');
         } catch (error) {
-            console.error('Raha Café: Error initializing scripts:', error);
+            console.error('Brew Café: Error initializing scripts:', error);
         }
     }
     
@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', function() {
      * Global error handler
      */
     window.addEventListener('error', function(e) {
-        console.error('Raha Café: JavaScript error:', e.error);
+        console.error('Brew Café: JavaScript error:', e.error);
         // Could send error to analytics service in production
     });
     
@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', function() {
      * Handle unhandled promise rejections
      */
     window.addEventListener('unhandledrejection', function(e) {
-        console.error('Raha Café: Unhandled promise rejection:', e.reason);
+        console.error('Brew Café: Unhandled promise rejection:', e.reason);
         // Could send error to analytics service in production
     });
     

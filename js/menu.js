@@ -1,5 +1,5 @@
 /**
- * Menu Page JavaScript - Raha Café Coffee Shop
+ * Menu Page JavaScript - Brew Café Coffee Shop
  * Handles menu filtering, interactions, and dynamic content loading
  */
 

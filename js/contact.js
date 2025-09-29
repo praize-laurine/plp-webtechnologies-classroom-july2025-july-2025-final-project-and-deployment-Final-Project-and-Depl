@@ -1,5 +1,5 @@
 /**
- * Contact Form JavaScript - Raha Café Coffee Shop
+ * Contact Form JavaScript - Brew Café Coffee Shop
  * Handles form validation, submission, and user feedback
  */
 
